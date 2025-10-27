@@ -58,7 +58,7 @@ This application is fully containerized. DB tables and a default admin are creat
      DB_USER=postgres
      DB_PASSWORD=postgres
      DB_NAME=user_db
-     JWT_SECRET=change_me_to_a_strong_secret
+     JWT_SECRET=123456
      NODE_ENV=development
      ```
    - Frontend: no .env is required. The app currently calls the backend at `http://localhost:5000` directly.
